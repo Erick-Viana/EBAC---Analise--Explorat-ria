@@ -1,0 +1,63 @@
+📊 Análise de Dados de Produtos de E-commerce
+Este projeto tem como objetivo realizar uma análise exploratória e visual dos dados de produtos disponíveis em um e-commerce, com foco em gerar insights estratégicos para o negócio.
+
+🧾 Conteúdo do Projeto
+Analise_Exploratoria.ipynb
+Notebook onde foram realizadas:
+
+Limpeza de dados (remoção de duplicatas, tratamento de valores nulos)
+Análises iniciais de colunas como preço, notas, quantidade de avaliações e categorias
+Identificação de padrões relevantes
+visualizacao_dados.ipynb
+Notebook com gráficos para facilitar a visualização dos padrões encontrados:
+
+Histograma
+Gráfico de Dispersão
+Mapa de Calor
+Gráfico de Barras
+Gráfico de Pizza
+Gráfico de Densidade
+Gráfico de Regressão
+🧼 Pré-processamento
+Foi realizada a verificação e tratamento dos dados:
+
+Exclusão de produtos com 0 avaliações
+Padronização de valores categóricos
+Normalização de colunas numéricas
+Codificação de variáveis para análise
+📌 Principais Descobertas
+Produtos como kits de roupas íntimas e maternidade têm nota média acima de 4.8.
+Algumas categorias, como acessórios e moda íntima, vendem muito mesmo com notas médias em torno de 3.5.
+Não há correlação significativa entre preço e avaliação média, indicando que o valor não afeta diretamente a percepção do cliente.
+🎯 Insights Estratégicos
+Aumentar o estoque de produtos com melhor desempenho e avaliação.
+Investir em marketing para os produtos mais bem avaliados e com maior volume de vendas.
+Explorar categorias com potencial de crescimento baseado na performance de vendas e notas.
+🖼️ Exemplo de Visualização
+Exemplo ilustrativo de gráfico de correlação:
+Exemplo de grfico de calor
+
+🛠️ Tecnologias Utilizadas
+Python
+Pandas, NumPy
+Matplotlib, Seaborn
+Jupyter Notebook
+📂 Como Executar
+Clone este repositório
+Instale os pacotes necessários com pip install -r requirements.txt (se aplicável)
+Execute os notebooks em Jupyter
+📬 Contato
+Projeto desenvolvido por Seu Nome
+📧 Email: erickvianapinto00@gmail.com
+🔗 LinkedIn | GitHub
+
+🚀 Próximos Passos
+Com base nas análises realizadas, aqui estão algumas sugestões para aprofundar ou expandir este projeto:
+
+Modelagem Preditiva: Criar modelos de machine learning para prever a quantidade de vendas com base em atributos como preço, categoria e avaliação.
+Clusterização de Produtos: Agrupar produtos semelhantes usando algoritmos de clustering (ex: K-means) para entender padrões de consumo.
+Dashboard Interativo: Desenvolver um dashboard com ferramentas como Streamlit ou Power BI para facilitar a visualização em tempo real por gestores.
+Análise de Sentimento: Se houver avaliações em texto, aplicar NLP para identificar sentimentos e opiniões dos clientes.
+Monitoramento Contínuo: Automatizar o processo de ingestão e análise de novos dados para insights dinâmicos.
+Sugestões de Precificação: Criar uma lógica de precificação inteligente com base em elasticidade de preço e concorrência.
+Esses passos podem transformar o projeto de uma análise descritiva em uma ferramenta poderosa de apoio à decisão estratégica.
